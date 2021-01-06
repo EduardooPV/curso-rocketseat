@@ -40,4 +40,6 @@
 
 * Conceitos e fundamentos
 * Prática 
-* Revisão
+* Revisão 
+
+Go to curse!!
