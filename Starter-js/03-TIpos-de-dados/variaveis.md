@@ -7,3 +7,7 @@
     * var
     * let 
     * const
+
+
+O JS é uma linguagem fracamente tipada e dinâmica
+- Variáveis não pre
