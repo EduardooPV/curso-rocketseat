@@ -12,3 +12,6 @@ function createPhrases() {
 // Executar a função
 // Rodar, chamar, invocar
 // execute, run, call, invoke
+createPhrases() 
+
+console.log('Fim do programa')
