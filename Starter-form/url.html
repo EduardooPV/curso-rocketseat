@@ -1,0 +1,42 @@
+<!--
+    <input type="url" />
+
+    - Espera que o usuário digite uma url
+    - Irá válidar se o valor digitado é uma url
+
+    # Atributos
+
+    - placeholder
+    - readonly / disabled
+    - value
+
+    - required
+
+    - minlenght / maxlength
+        * O mínimo e o maximo
+
+    - size 
+        * O valor numérico indicando quantos caracteres
+        
+    - spellcheck
+        * Habilitar a verificação ortográfica para este input
+
+-->
+
+<datalist id="urlsdata"> 
+    <option>https://exemple.com.br</option>
+    <option>http://exemple.com.br</option>
+</datalist>
+
+<form action="">
+    <input type="url" 
+    placeholder="http://exemple.com.br"
+    required
+    pattern=".*\.com\.br\.*"
+    title="Somente domínios .com.br serão aceitos"
+    list="urlsdata"
+    spellcheck="true"
+    >
+
+    <button type="submit">Enviar</button>
+</form>
