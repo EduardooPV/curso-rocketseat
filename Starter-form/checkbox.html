@@ -1,0 +1,35 @@
+<!-- 
+    <input type="checkbox">
+
+    - Caixas que podem ser marcadas
+    - Selecionar um valor para ser enviado
+    - Se não selecionado, não sera enviado nenhum dado
+
+    Atributos
+    - Globais
+    - Value
+        * Valor que o campo contém
+        * Se não estiver presente o padrão é 'on'
+    - Checked
+        * Para deixar o campo marcado por padrão
+-->
+
+<label for="subscribe">Receber notificação</label>
+<input type="checkbox" name="subscribe" id="subscribe" 
+value="subscribed"
+checked>
+
+
+<fieldset>
+    <legend>Escolha um tipo de musica</legend>
+
+    <div>
+        <input type="checkbox" name="tipymusic" id="rock" value="rock">
+        <label for="rock">Rock</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="tipymusic" id="rap" value="rock">
+        <label for="rap">Rap</label>
+    </div>
+</fieldset>
