@@ -1,6 +1,10 @@
-# Curso RocketSeat
+# Curso RocketSeat Discover 
 
-## Repositório criado com a finalidade de demonstrar a minha evolução durante o curso Discover da RocketSeat. 
+![Discover](https://t2.tudocdn.net/572277?w=646&h=284)
+
+## Repositório criado com a finalidade de demonstrar o meu desenvolvimento durante o curso **Discover** da **RocketSeat.** 
+
+### Seções do curso:
 
 - [ ] Equipando sua nave 
   - [x] Ambiente Dev de outro mundo 
